@@ -1,0 +1,8 @@
+{% for post in posts %}
+<h2>{{ post.id }}&nbsp;{{ post.title }}</h2>
+<p>{{ post.body }}</p>
+<h4>{{ post.created }}</h4>
+
+{% endfor %}
+
+<a href="/form">Add a note</a>
